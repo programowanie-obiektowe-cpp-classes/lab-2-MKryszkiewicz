@@ -13,10 +13,10 @@ class ResourceManager
     {
         delete A;
     }
-    ResourceManager (const ResourceManager &B)
-    {
-        A = new Resource(*B.A);
-    }
+    //ResourceManager (const ResourceManager &B)
+    //{
+    //    A = new Resource(*B.A);
+    //}
     double get()
     {
         return (*A).get();
