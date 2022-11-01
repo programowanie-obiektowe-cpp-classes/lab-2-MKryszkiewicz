@@ -4,5 +4,20 @@
 
 class ResourceManager
 {
-    // Twoja implementacja tutaj
+    public:
+    ResourceManager () //Konstruktor domyslny, ten ktory inicjalizuje 
+    {
+        A = new Resource;
+    }
+    ~ResourceManager () //Destruktor
+    {
+        delete A;
+    }
+    double get()
+    {
+        return (*A).get();
+    }
+    private:
+    Resource* A;
+
 };

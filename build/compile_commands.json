@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/build",
+  "command": "/usr/bin/g++  -I/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/include -g -o CMakeFiles/zad1.dir/test.cpp.o -c /home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/test.cpp",
+  "file": "/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/test.cpp"
+},
+{
+  "directory": "/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/build",
+  "command": "/usr/bin/g++  -I/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/include -g -o CMakeFiles/zad1.dir/zad1.cpp.o -c /home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/zad1.cpp",
+  "file": "/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/zad1.cpp"
+},
+{
+  "directory": "/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/build",
+  "command": "/usr/bin/g++  -I/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/include -g -o CMakeFiles/zad2.dir/test.cpp.o -c /home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/test.cpp",
+  "file": "/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/test.cpp"
+},
+{
+  "directory": "/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/build",
+  "command": "/usr/bin/g++  -I/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/include -g -o CMakeFiles/zad2.dir/zad2.cpp.o -c /home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/zad2.cpp",
+  "file": "/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/zad2.cpp"
+},
+{
+  "directory": "/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/build",
+  "command": "/usr/bin/g++  -I/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/include -g -o CMakeFiles/zad3.dir/test.cpp.o -c /home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/test.cpp",
+  "file": "/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/test.cpp"
+},
+{
+  "directory": "/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/build",
+  "command": "/usr/bin/g++  -I/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/include -g -o CMakeFiles/zad3.dir/zad3.cpp.o -c /home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/zad3.cpp",
+  "file": "/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/zad3.cpp"
+}
+]

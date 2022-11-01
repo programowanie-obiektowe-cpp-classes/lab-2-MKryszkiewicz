@@ -1,0 +1,5 @@
+/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/build/CMakeFiles/zad1.dir
+/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/build/CMakeFiles/zad2.dir
+/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/build/CMakeFiles/zad3.dir
+/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/build/CMakeFiles/edit_cache.dir
+/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-2-MKryszkiewicz/build/CMakeFiles/rebuild_cache.dir
