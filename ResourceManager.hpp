@@ -41,6 +41,7 @@ class ResourceManager
     {
         delete A;
         A = B.A;
+        return *this;
     }
     private:
     Resource* A = nullptr;
