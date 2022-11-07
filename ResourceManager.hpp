@@ -13,9 +13,9 @@ class ResourceManager
     {
         delete A;
     }
-    ResourceManager (const ResourceManager &B) :A(B.A)
+    ResourceManager (const ResourceManager& B) 
     {
-        
+        A = B.A;
     }
     double get()
     {
