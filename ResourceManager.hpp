@@ -1,6 +1,8 @@
 #pragma once
-
+#include <iostream>
 #include "Resource.hpp"
+
+using namespace std;
 
 class ResourceManager
 {
