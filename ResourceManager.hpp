@@ -32,10 +32,15 @@ class ResourceManager
         }
         return *this;
     }
-    ResourceManager(ResourceManager&& B)    // przenoszenie
+    ResourceManager(ResourceManager&& B)    // Konstruktor przenoszacy
     {
         A = B.A;
         B.A = nullptr;
+    }
+    ResourceManager& operator=(const ResourceManager&& B) //operator przenoszenia?
+    {
+        delete A;
+        A = B.A;
     }
     private:
     Resource* A = nullptr;
