@@ -13,21 +13,21 @@ class ResourceManager
     {
         delete A;
     }
-    ResourceManager (const ResourceManager& B)//Konstruktor kopiujący
-    {
-        A = new Resource;
-        A = B.A;
-    } 
+    ResourceManager (const ResourceManager& B): A{B.A} {}//Konstruktor kopiujący
     double get()
     {
         return (*A).get();
     }
     ResourceManager& operator=(const ResourceManager& B)
     {
-        A = B.A;
+        if (&B != this)
+        {
+            delete A;
+            A = new Resource{*B.A};
+        }
         return *this;
     }
-    //MOVE
+    // MOVE
     private:
     Resource* A;
 };
