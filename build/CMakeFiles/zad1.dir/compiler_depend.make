@@ -608,6 +608,9 @@ CMakeFiles/zad1.dir/zad1.cpp.o: ../zad1.cpp \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
   ../ResourceManager.hpp \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/bits/istream.tcc \
   ../include/Resource.hpp \
   ../include/ConstructionTracker.hpp
 
