@@ -37,10 +37,11 @@ class ResourceManager
         A = B.A;
         B.A = nullptr;
     }
-    ResourceManager& operator=(const ResourceManager&& B) //operator przenoszenia?
+    ResourceManager& operator=(ResourceManager&& B) //operator przenoszenia?
     {
         delete A;
         A = B.A;
+        B.A = nullptr;
         return *this;
     }
     private:
