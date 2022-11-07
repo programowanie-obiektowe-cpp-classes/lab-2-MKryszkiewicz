@@ -15,6 +15,7 @@ class ResourceManager
     }
     ResourceManager (const ResourceManager& B) 
     {
+        A = new Resource;
         A = B.A;
     }
     double get()
