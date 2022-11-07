@@ -16,7 +16,7 @@ class ResourceManager
     ResourceManager (const ResourceManager& B) : A(B.A) {}
     ResourceManager& operator=(const ResourceManager& B)
     {
-        A = B.A;
+        this -> A = B.A;
         return *this;
     }
     double get()
