@@ -21,7 +21,7 @@ class ResourceManager
     }
     double get() //getter
     {
-        return (*A).get();
+        return A -> get();
     }
     ResourceManager& operator=(const ResourceManager& B) //opreator przypisania
     {
