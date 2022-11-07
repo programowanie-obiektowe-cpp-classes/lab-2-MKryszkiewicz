@@ -15,7 +15,10 @@ class ResourceManager
     {
         delete A;
     }
-    ResourceManager (const ResourceManager& B): A{B.A} {}//Konstruktor kopiujący
+    ResourceManager (const ResourceManager& B)//Konstruktor kopiujący
+    {
+        A = new Resource{*B.A};
+    }
     double get()
     {
         return A -> get();
