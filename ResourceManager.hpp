@@ -19,11 +19,11 @@ class ResourceManager
     {
         A = new Resource{*B.A};
     }
-    double get()
+    double get() //getter
     {
         return A -> get();
     }
-    ResourceManager& operator=(const ResourceManager& B)
+    ResourceManager& operator=(const ResourceManager& B) //opreator przypisania
     {
         if (&B != this)
         {
@@ -32,7 +32,11 @@ class ResourceManager
         }
         return *this;
     }
-    // MOVE
+    ResourceManager(ResourceManager&& B)    // przenoszenie
+    {
+        A = B.A;
+        B.A = nullptr;
+    }
     private:
     Resource* A;
 };
