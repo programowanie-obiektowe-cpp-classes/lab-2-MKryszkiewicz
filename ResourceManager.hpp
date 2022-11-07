@@ -16,7 +16,7 @@ class ResourceManager
     ResourceManager (const ResourceManager& B): A{B.A} {}//Konstruktor kopiujący
     double get()
     {
-        return (*A).get();
+        return A -> get();
     }
     ResourceManager& operator=(const ResourceManager& B)
     {
