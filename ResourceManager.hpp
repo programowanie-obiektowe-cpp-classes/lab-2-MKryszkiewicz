@@ -7,18 +7,17 @@ class ResourceManager
     public:
     ResourceManager () //Konstruktor domyslny, ten ktory inicjalizuje 
     {
-        Resource A;
+        A = new Resource;
     }
     ~ResourceManager () //Destruktor
     {
         delete A;
     }
     ResourceManager (const ResourceManager& B) : A(B.A) {}
-    // ResourceManager& operator=(const ResourceManager& B)
-    // {
-    //     this -> A = B.A;
-    //     return *this;
-    // }
+     ResourceManager& operator=(const ResourceManager& B)
+    {
+        return *this;
+    }
     double get()
     {
         return (*A).get();
