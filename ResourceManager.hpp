@@ -14,15 +14,16 @@ class ResourceManager
         delete A;
     }
     ResourceManager (const ResourceManager& B) : A(B.A) {}
-    ResourceManager& operator=(const ResourceManager& B)
-    {
-        this -> A = B.A;
-        return *this;
-    }
+    // ResourceManager& operator=(const ResourceManager& B)
+    // {
+    //     this -> A = B.A;
+    //     return *this;
+    // }
     double get()
     {
         return (*A).get();
     }
+    //MOVE
     private:
     Resource* A;
 };
