@@ -17,11 +17,14 @@ class ResourceManager
     {
         A = new Resource(*B.A);
     }
+    ResourceManager (ResourceManager &B)
+    {
+        A = new Resource(*B.A);
+    }
     double get()
     {
         return (*A).get();
     }
     private:
     Resource* A;
-
 };
