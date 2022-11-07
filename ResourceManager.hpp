@@ -7,7 +7,7 @@ class ResourceManager
     public:
     ResourceManager () //Konstruktor domyslny, ten ktory inicjalizuje 
     {
-        A = new Resource;
+        Resource A;
     }
     ~ResourceManager () //Destruktor
     {
